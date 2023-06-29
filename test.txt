@@ -1,0 +1,27 @@
+Hogge Louis - s192814
+
+1. we add 2 to r0 --> r0=2
+2. we substract 1 to r0 --> r0=1
+3. we multiply r0 by 2 --> r0=2
+4. we divide r0 by 2 --> r0=1
+5. we "bitwise or" r0 and 3 and we put the result in r1 --> r1=3
+6. we "bitwise exclusive or" r0 and 3 and we put the result in r1 --> r1=2
+7. we "bitwise and" r0 and 3 and we put the result in r1 --> r1=1
+8. we shift r0 of 1 to the left --> r0=2
+9. we shift r0 of 1 to the right --> r0=1
+10. we add 56 to r2 --> r2=56
+11. we do the instruction JMP(r2,r4) which stores in r4 the address of PC+4
+	(44) and jump to the address stored in r2 (56), so we skip 3 instructions
+12. we multiply r2 by r31 --> r2=0
+13. we add 3 to r2 --> r2=3
+14. we add 1 to r2 --> r2=4
+15. we multiply r0 by r31 --> r0=0
+16. we multiply r1 by r31 --> r1=0
+17. we multiply r2 by r31 --> r2=0
+18. we multiply r4 by r31 --> r4=0
+19. we add 3 to r0 --> r0=3
+20. we store r0 in the data memory at the address r31+0 --> 3 stored at 
+	address 0
+21. We start a function which calculate the factorial of 3 and stores the result in the data memory at the address r31+4 --> 6 stored at address 4
+
+(All mentionned values are in decimal)
